@@ -1,6 +1,14 @@
 // 项目的根组件
 // App -> index.js -> public/index.html(root)
 
+// 导入样式
+import './index.css'
+
+const style = {
+  color: 'red',
+  fontSize: '50px'
+}
+
 function App() {
   return (
     <div className="App">
