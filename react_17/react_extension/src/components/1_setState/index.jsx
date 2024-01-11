@@ -5,7 +5,7 @@ export default class Demo extends Component {
 	state = {count:0}
 
 	add = ()=>{
-		//对象式的setState
+		//1、对象式的setState
 		/* //1.获取原来的count值
 		const {count} = this.state
 		//2.更新状态
@@ -14,7 +14,7 @@ export default class Demo extends Component {
 		})
 		//console.log('12行的输出',this.state.count); //0 */
 
-		//函数式的setState
+		//2、函数式的setState
 		this.setState( state => ({count:state.count+1}))
 	}
 
